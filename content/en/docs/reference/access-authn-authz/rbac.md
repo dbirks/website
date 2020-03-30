@@ -1134,7 +1134,7 @@ In order from most secure to least secure, the approaches are:
     ```shell
     kubectl create clusterrolebinding serviceaccounts-view \
       --clusterrole=view \
-     --group=system:serviceaccounts
+      --group=system:serviceaccounts
     ```
 
 5. Grant super-user access to all service accounts cluster-wide (strongly discouraged)
